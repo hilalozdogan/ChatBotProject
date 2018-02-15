@@ -8,29 +8,28 @@ olarak bir alışveriş sohbet robotu uygulaması geliştirilecektir.
 
 Öncelikle örneği yapılan sohbet robotu  uygulamasının rastlantısallık katılmış “selamlama” ve
 “istisna” aşamalarına ek olarak “hal, hatır sorma” ve “vedalaşma” durumları da eklenecektir.
+- **Örnek senaryo aşağıda listelenmiştir;**
 
-- Örnek senaryo aşağıda listelenmiştir;
-
-**1.**	Selamlama
+**1.	Selamlama**
 - a.	Siz: selamlar
 - b.	Bot: merhaba
 - c.	Siz: hosgeldin (istisna durumu)
 - d.	Bot: anlasilmadi ??? lutfen tekrarlar misiniz?
 
-**2.**	Hal, Hatır Sorma
+**2.	Hal, Hatır Sorma**
 - a.	Siz: nasilsiniz?
 - b.	Bot: Tesekkurler, iyiyim. siz?
 - (Ürün seçme ve kullanıcı yorumlarına göre en beğenilen ürünlerin belirlenme diyaloğu)
 
-**3.**	Vedalaşma
+**3.Vedalaşma**
 - a.	Siz: gule gule
 - b.	Bot: hoscakalin...
 
-- Ürün seçme ve kullanıcı yorumlarına göre en beğenilen ürünlerin belirlenme aşamasında ise yapılacaklar şu şekilde listelenmiştir;
+- **Ürün seçme ve kullanıcı yorumlarına göre en beğenilen ürünlerin belirlenme aşamasında ise yapılacaklar şu şekilde listelenmiştir;**
 
-**1.**	Ürün seçimi yapılmadan önce ürün bilgisi kullanıcı arayüzünden sisteme girilmesi gerekmektedir. Ürün kategorisi (Elektronik, Beyaz Eşya, vb.), marka ve model bilgisi ile birlikte ürünün türüne göre detay bilgileri (cep telefonu için ekran boyutu, kamera çözünürlüğü, fiyatı vb.) kaydedilecektir. Bu adım için uygun sınıf hiyerarşisinin oluşturulması beklenecektir. Girilen ürünlere ait 10 adet Twitter yorumu da elle seçilerek kullanıcı yorumları arayüzünden girilebileceği gibi Twitter4J  kütüphanesi kullanılarak arayüz olmadan da toplanabilinir. Bu aşamada uygun sınıf hiyerarşisinin sağlanması beklenecektir.
+**###1.**	Ürün seçimi yapılmadan önce ürün bilgisi kullanıcı arayüzünden sisteme girilmesi gerekmektedir. Ürün kategorisi (Elektronik, Beyaz Eşya, vb.), marka ve model bilgisi ile birlikte ürünün türüne göre detay bilgileri (cep telefonu için ekran boyutu, kamera çözünürlüğü, fiyatı vb.) kaydedilecektir. Bu adım için uygun sınıf hiyerarşisinin oluşturulması beklenecektir. Girilen ürünlere ait 10 adet Twitter yorumu da elle seçilerek kullanıcı yorumları arayüzünden girilebileceği gibi Twitter4J  kütüphanesi kullanılarak arayüz olmadan da toplanabilinir. Bu aşamada uygun sınıf hiyerarşisinin sağlanması beklenecektir.
 
-**2.**	Twitter yorumlarından en beğenilen ürünlerin belirlenme aşamasında ise SenticNet 4  kaynağı kullanılacaktır. Bu kaynakta yer alan dosyada İngilizce terimin kutup değerine göre olumlu yada olumsuz anlam taşıdığının bilgisi tutulmaktadır. 
+**###2.**	Twitter yorumlarından en beğenilen ürünlerin belirlenme aşamasında ise SenticNet 4  kaynağı kullanılacaktır. Bu kaynakta yer alan dosyada İngilizce terimin kutup değerine göre olumlu yada olumsuz anlam taşıdığının bilgisi tutulmaktadır. 
 - Örneğin,
 - good	positive	0.664
 - bad	negative	-0.36
