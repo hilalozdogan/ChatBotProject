@@ -1,0 +1,3 @@
+Bilgisayar,223,Apple,MacbookAir,Intel i5,16GB,750GB,13.3"
+Televizyon,324,LG,55SJ800V.APD,139 cm,LED,4K ULTRA HD
+Cep Telefonu,,gm,,2,512 MB
