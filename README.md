@@ -8,21 +8,23 @@ olarak bir alışveriş sohbet robotu uygulaması geliştirilecektir.
 
 Öncelikle örneği yapılan sohbet robotu  uygulamasının rastlantısallık katılmış “selamlama” ve
 “istisna” aşamalarına ek olarak “hal, hatır sorma” ve “vedalaşma” durumları da eklenecektir.
-Örnek senaryo aşağıda listelenmiştir;
+
+- Örnek senaryo aşağıda listelenmiştir;
+
 **1.**	Selamlama
-a.	Siz: selamlar
-b.	Bot: merhaba
-c.	Siz: hosgeldin (istisna durumu)
-d.	Bot: anlasilmadi ??? lutfen tekrarlar misiniz?
+- a.	Siz: selamlar
+- b.	Bot: merhaba
+- c.	Siz: hosgeldin (istisna durumu)
+- d.	Bot: anlasilmadi ??? lutfen tekrarlar misiniz?
 
 **2.**	Hal, Hatır Sorma
-a.	Siz: nasilsiniz?
-b.	Bot: Tesekkurler, iyiyim. siz?
-(Ürün seçme ve kullanıcı yorumlarına göre en beğenilen ürünlerin belirlenme diyaloğu)
+- a.	Siz: nasilsiniz?
+- b.	Bot: Tesekkurler, iyiyim. siz?
+- (Ürün seçme ve kullanıcı yorumlarına göre en beğenilen ürünlerin belirlenme diyaloğu)
 
 **3.**	Vedalaşma
-a.	Siz: gule gule
-b.	Bot: hoscakalin...
+- a.	Siz: gule gule
+- b.	Bot: hoscakalin...
 
 - Ürün seçme ve kullanıcı yorumlarına göre en beğenilen ürünlerin belirlenme aşamasında ise yapılacaklar şu şekilde listelenmiştir;
 
